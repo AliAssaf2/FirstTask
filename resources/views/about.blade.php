@@ -577,12 +577,12 @@
             /* Group 29 */
 
             position: absolute;
-            width: 360px;
+            width: auto;
             height: 24px;
             left: 100px;
             top: 0;
-        }
 
+        }
         .foot .inner-foot .SocialMediaBox .socialMediaBoxBox .facebook {
             /* facebook black.1 */
 
@@ -591,7 +591,7 @@
             height: 24px;
             left: 0;
             top: 0;
-
+            margin: 30px;
 
         }
 
@@ -678,6 +678,8 @@
 
 
         }
+
+
 
 
 
