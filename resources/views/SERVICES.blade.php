@@ -56,7 +56,7 @@
         .OurServiceTextBox {
             /* Group 3639 */
             position: absolute;
-            width: auto ;
+            width: auto;
             height: 129px;
             left: 50%;
             top: 50%;
@@ -66,7 +66,6 @@
 
         .OurServiceTextBox h1 {
             /* OUR SERVICES */
-
             position: relative;
             width: 100%;
             height: auto;
@@ -76,71 +75,44 @@
             font-weight: 700;
             font-size: 95px;
             line-height: 111px;
-
             color: #FFFFFF;
 
-        }
-        .OurServiceTextBox p{
+        .OurServiceTextBox p {
             /* WHAT WE PROVIDE */
-
             position: absolute;
             width: auto;
             height: 35px;
             left: 200px;
-
             font-family: 'Work Sans';
             font-style: normal;
             font-weight: 600;
             font-size: 30px;
             line-height: 35px;
-
             color: #09C4D0;
-
-
         }
-        .main{
+        .main {
             /* Rectangle 60 */
-
             position: absolute;
             width: 1575px;
             height: 1018px;
             left: 3px;
             top: 635px;
-
             background: #F6F6F6;
 
-        }
-        .main .BusinessBox{
+        .main .BusinessBox {
             /* Group 3768 */
-
             position: absolute;
             width: 568px;
-            height: 225.07px;
-            left: 120px;
-            top: 165.93px;
-
-
-        }
-        .main .BusinessBox img{
-            /* business-solutions */
-
-            position: absolute;
-            width: 200px;
-            height: 200px;
             left: 100px;
-            bottom: 100px;
 
 
 
         }
-        .main .BusinessBox h1{
             /* Business Solutions */
 
             position: absolute;
             width: 187px;
             height: 23px;
-            left: 344px;
-            bottom: 250px;
 
             font-family: 'Work Sans';
             font-style: normal;
@@ -150,14 +122,8 @@
 
             color: #504ED8;
         }
-        .main .BusinessBox p{
-            /* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar tortor neque luctus diam at urna, sed feugiat. Sed pulvinar aliquet tristique molestie nisi. In adipiscing varius turpis amet. Nunc aliquet euismod turpis neque interdum semper tempor urna. Eu vulputate hac sed praesent condimentum sit in facilisi natoque. Iaculis scelerisque nunc. */
-
             position: absolute;
             width: 344px;
-            height: 171px;
-            left: 344px;
-            bottom: 60px;
 
             font-family: 'Work Sans';
             font-style: normal;
@@ -205,15 +171,10 @@
 </div>
 <div class="main">
 <div class="BusinessBox">
-    <img src="img/Group 3701.png">
-    <h1>Business Solutions</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Pulvinar tortor neque luctus diam at urna, sed feugiat.
-        Sed pulvinar aliquet tristique molestie nisi. In adipiscing varius turpis amet.
-        Nunc aliquet euismod turpis neque interdum semper tempor urna.
-        Eu vulputate hac sed praesent condimentum sit in facilisi natoque.
-        Iaculis scelerisque nunc.</p>
-</div>
+        <img src="img/Group 3701.png">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Pulvinar tortor neque luctus diam at urna, sed feugiat.
+        </div>
 </div>
 </body>
 </html>
