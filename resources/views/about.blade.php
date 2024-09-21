@@ -350,6 +350,337 @@
             top: 20px;
 
         }
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 410px;
+            height: 250px;
+            background-color: rgba(0, 123, 255, 0.5); /* Blue color with opacity */
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .overlay h2 {
+            font-size: 2rem;
+            margin: 0;
+        }
+
+        .overlay p {
+            font-size: 1.2rem;
+            margin: 0;
+        }
+        .foot{
+            /* Footer 8 white */
+
+            position: absolute;
+            width: 1440px;
+            height: 382px;
+            left: 0px;
+            top: 2974px;
+            background: #FFFFFF;
+
+        }
+        .foot .inner-foot{
+            /* Footer UI */
+
+            position: absolute;
+            width: 1374px;
+            height: 247px;
+            left: 183px;
+            top: 25px;
+
+
+        }
+        .foot .inner-foot .zen{
+            /* zin new 1 */
+
+            position: absolute;
+            width: 242.29px;
+            height: 148px;
+            left: 277px;
+            top: 100px;
+
+
+        }
+
+        .foot .inner-foot .foot-nav {
+            /* About us */
+
+            position: absolute;
+            width: auto;
+            height: 14px;
+            left: 600px;
+            top: 65px;
+
+            font-family: 'Work Sans';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 14px;
+            /* identical to box height */
+            text-transform: uppercase;
+
+            color: #504ED8;
+            display: flex;
+            gap: 20px;
+        }
+        .foot .inner-foot .foot-nav a{
+           color:  #504ED8;
+
+        }
+        .foot .inner-foot .placeBox{
+            /* Location */
+
+            position: absolute;
+            width: 354px;
+            height: 24px;
+            left: 721px;
+            top: 144px;
+
+
+        }
+        .foot .inner-foot .placeBox img{
+            /* round-place-24px */
+
+            position: absolute;
+            width: 24px;
+            height: 24px;
+            left: 0px;
+            top: 0px;
+
+
+        }
+        .foot .inner-foot .placeText{
+            /* 503 Faulconer Drive, */
+
+            position: absolute;
+            height: 16px;
+            left: 11.3%;
+            right: -19.21%;
+            top: calc(50% - 16px/2 - 1px);
+
+            font-family: 'Work Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 16px;
+
+            color: #504ED8;
+
+
+        }
+
+        .foot .inner-foot .phoneBox{
+            /* phone */
+            position: absolute;
+            width: 123px;
+            height: 24px;
+            left: 721px;
+            top: 184px;
+
+        }
+        .foot .inner-foot .phoneBox img{
+            /* round-phone-24px */
+
+            position: absolute;
+            width: 24px;
+            height: 24px;
+            left: 0px;
+            top: 0px;
+
+
+        }
+        .foot .inner-foot .phoneBox p{
+
+
+        position: absolute;
+        height: 16px;
+        left: 32.52%;
+        right: -14.63%;
+        top: calc(50% - 16px/2 - 1px);
+
+        font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+
+        color: #504ED8;
+        }
+        .foot .inner-foot .emailBox{
+            /* fax */
+            position: absolute;
+            width: 138px;
+            height: 24px;
+            left: 965px;
+            top: 184px;
+        }
+        .foot .inner-foot .emailBox img{
+            /* round-local-printshop-24px */
+
+            position: absolute;
+            width: 24px;
+            height: 24px;
+            left: 0px;
+            top: 0px;
+
+
+        }
+        .foot .inner-foot .emailBox p{
+            /* (434) 293-7377 */
+
+            position: absolute;
+            width: 110px;
+            height: 16px;
+            left: 40px;
+            top: 3px;
+
+            font-family: 'Work Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 16px;
+
+            color: #504ED8;
+
+
+        }
+
+        .foot .inner-foot .SocialMediaBox {
+            /* Social */
+
+            position: absolute;
+            width: 460px;
+            height: 24px;
+            left: 721px;
+            top: 248px;
+        }
+
+        .foot .inner-foot .SocialMediaBox p {
+            /* Social Media */
+            font-family: 'Work Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14px;
+            /* identical to box height */
+            color: #BDBDF2;
+            mix-blend-mode: normal;
+        }
+
+        .foot .inner-foot .SocialMediaBox .SocialMediaBoxBox {
+            /* Group 29 */
+
+            position: absolute;
+            width: 360px;
+            height: 24px;
+            left: 100px;
+            top: 0;
+        }
+
+        .foot .inner-foot .SocialMediaBox .socialMediaBoxBox .facebook {
+            /* facebook black.1 */
+
+            position: absolute;
+            width: 24px;
+            height: 24px;
+            left: 0;
+            top: 0;
+
+
+        }
+
+        .foot .inner-foot .SocialMediaBox .socialMediaBoxBox .twitter {
+            /* twitter black.1 */
+
+            position: absolute;
+            width: 24px;
+            height: 24px;
+            left: 869px;
+            top: 248px;
+
+
+        }
+
+        .foot .inner-foot .SocialMediaBox .socialMediaBoxBox .linkedin {
+            /* linkedin black.1 */
+
+            position: absolute;
+            width: 24px;
+            height: 24px;
+            left: 917px;
+            top: 248px;
+
+
+        }
+
+        .foot .inner-foot .SocialMediaBox .socialMediaBoxBox .youtube {
+            /* youtube color.1 */
+
+            position: absolute;
+            width: 24px;
+            height: 24px;
+            left: 965px;
+            top: 248px;
+
+
+        }
+
+        .foot .inner-foot .SocialMediaBox .socialMediaBoxBox .instagram {
+            /* instagram black.1 */
+
+            position: absolute;
+            width: 24px;
+            height: 24px;
+            left: 1013px;
+            top: 248px;
+
+
+        }
+
+        .foot .inner-foot .SocialMediaBox .socialMediaBoxBox .googleplus {
+            /* googleplus black.1 */
+
+            position: absolute;
+            width: 24px;
+            height: 24px;
+            left: 1061px;
+            top: 248px;
+
+
+        }
+
+        .foot .inner-foot .SocialMediaBox .socialMediaBoxBox .pinterest {
+            /* pinterest color.1 */
+
+            position: absolute;
+            width: 24px;
+            height: 24px;
+            left: 1109px;
+            top: 248px;
+
+
+        }
+
+        .foot .inner-foot .SocialMediaBox .socialMediaBoxBox .rss {
+            /* rss black.1 */
+
+            position: absolute;
+            width: 24px;
+            height: 24px;
+            left: 1157px;
+            top: 248px;
+
+
+        }
+
+
+
 
     </style>
 </head>
@@ -476,8 +807,12 @@
         <div class="picture-div">
             <div class="container">
                 <div class="row g-0">
-                    <div class="col">
+                    <div class="col" >
                         <img src="img/Ylk5n_nd9dA(4).png" class="img-fluid" alt="Image 1">
+                        <div class="overlay">
+                            <h2>PROJECT TITLE</h2>
+                            <p>Company name</p>
+                        </div>
                     </div>
                     <div class="col">
                         <img src="img/Ylk5n_nd9dA(1).png" class="img-fluid" alt="Image 2">
@@ -492,6 +827,58 @@
     </div>
 
 </div>
+<footer class="foot">
+    <div class="inner-foot">
+       <img src="img/zin new 1.png" class="zen">
+        <div class="foot-nav">
+            <div class="navbar-container">
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">SERVICES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">PORTFOLIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">CONTACT US</a>
+                    </li>
+                </ul>
+            </div>
 
+        </div>
+        <div class="placeBox">
+        <img src="img/round-place-24px.png" >
+        <p class="placeText">345 Faulconer Drive, Suite 4 • Charlottesville, CA, 12345</p>
+        </div>
+        <div class="phoneBox">
+            <img src="img/round-phone-24px.png">
+            <p>(123) 456-7890</p>
+        </div>
+        <div class="emailBox">
+            <img src="img/round-local-printshop-24px.png">
+            <p>email@info.com</p>
+        </div>
+        <div class="SocialMediaBox">
+            <p>Social Media</p>
+            <div class="SocialMediaBoxBox">
+                <img src="img/facebook black.1.png" class="facebook">
+                <img src="img/twitter black.1.png" class="twitter">
+                <img src="img/linkedin black.1.png" class="linkedin">
+                <img src="img/youtube color.1.png" class="youtube">
+                <img src="img/instagram black.1.png" class="instagram">
+                <img src="img/googleplus black.1.png" class="googleplus">
+                <img src="img/pinterest color.1.png" class="pinterest">
+                <img src="img/rss black.1.png" class="rss">
+            </div>
+        </div>
+
+    </div>
+</footer>
 </body>
 </html>
