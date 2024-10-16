@@ -17,19 +17,19 @@
     <div class="navbar-container">
         <ul class="nav">
             <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                <a class="nav-link active" aria-current="page" href="{{ url('/home') }}">HOME</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">ABOUT</a>
+                <a class="nav-link" href="{{ url('/about') }}">ABOUT</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">SERVICES</a>
+                <a class="nav-link" href="{{ url('/services') }}">SERVICES</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">PORTFOLIO</a>
+                <a class="nav-link" href="{{ url('/portfolio') }}">PORTFOLIO</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">CONTACT US</a>
+                <a class="nav-link" href="{{ url('/contact') }}">CONTACT US</a>
             </li>
         </ul>
     </div>
