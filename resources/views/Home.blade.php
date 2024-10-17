@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Document</title>
+    <title>Home</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <link href="{{ asset('css/home.css') }}" rel="stylesheet">
-
+    <script src="{{ asset('js/home.js') }}"></script>
 
 </head>
 <body>
@@ -36,72 +36,114 @@
 </header>
 
 <div class="main">
-    <div class="FirstText">
-        <p>One-stop shop for firmware, devices, apps, cloud solutions</p>
-    </div>
 
-    <div class="SecondText">
-        <img src="img/Group 47.png">
-    </div>
-    <div class="scrolDown">
-        <div>
-            <img src="img/fe_mouse.png">
+    <div class="Home-CarouselBox">
+
+    <div class="Changing-TextBox">
+        <div class="Changing-Text">
+            <p id="carousel-text"></p>
         </div>
-        <p>SCROLL DOWN</p>
     </div>
 
-    <div class="CarouselBox">
-        <div class="rotate">
-            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="img/slider-image-1(1).png" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>First slide label</h5>
-                            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="img/rafiki.png" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Second slide label</h5>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="img/rafiki1.png" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Third slide label</h5>
-                            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                        </div>
-                    </div>
-                </div>
+        <div class="TextBox1">
+            <p>One-stop shop for firmware, devices, apps, cloud solutions</p>
+        </div>
 
-                <!-- Wrapper for controls and indicators -->
-                <div class="carousel-controls-wrapper">
-                    <!-- Previous button -->
-                    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </a>
+        <div class="TextBox2">
+            <p>LET’S GET IN TOUCH!</p>
+        </div>
 
-                    <!-- Indicators -->
-                    <ol class="carousel-indicators">
-                        <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
-                        <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
-                        <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
-                    </ol>
+        <div class="scroll-downBox">
+        <!-- image holder for scroll down image -->
+        </div>
 
-                    <!-- Next button -->
-                    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </a>
-                </div>
+
+{{--<div class="CarouselBox">
+    <div id="carouselExampleIndicators" class="custom-carousel" data-bs-ride="carousel">
+
+        <div class="custom-carousel-inner">
+            <div class="custom-carousel-item custom-active">
+                <img src="img/Carousel-Slider-one.png" class="custom-img" alt="...">
+            </div>
+            <div class="custom-carousel-item">
+                <img src="img/Carousel-Slider-two.png" class="custom-img" alt="...">
+            </div>
+            <div class="custom-carousel-item">
+                <img src="img/Carousel-Slider-three.png" class="custom-img" alt="...">
             </div>
         </div>
+
     </div>
+</div>--}}
+
+
+        <div class="indicators-buttons-Box">
+            <div class="custom-carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="button1" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" class="button2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3" class="button3"></button>
+            </div>
+
+            <div class="prev-next-buttons">
+            <button class="custom-carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="custom-carousel-control-prev-icon" aria-hidden="true"></span>
+
+            </button>
+
+            <button class="custom-carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="custom-carousel-control-next-icon" aria-hidden="true"></span>
+
+            </button>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="Home-AboutUs">
+
+        <div class="AboutUs">
+            <h1>ABOUT US</h1>
+            <h2>WHO WE ARE</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar tortor neque
+                luctus diam at urna, sed feugiat. Sed pulvinar aliquet tristique molestie nisi.
+                In adipiscing varius turpis amet. Nunc aliquet euismod turpis neque interdum semper tempor urna.
+                Eu vulputate hac sed praesent condimentum sit in facilisi natoque. Iaculis scelerisque nunc,
+                a tincidunt elementum quis ante ultrices sed. Montes,
+                blandit faucibus elit cum egestas mollis vitae quisque.
+                Suspendisse vivamus vitae auctor mi sollicitudin habitant.
+                Id nullam viverra enim nisi feugiat orci. Enim et cras nibh vel
+                quis malesuada sed. Hendrerit vestibulum risus praesent sit morbi cras.
+                Eu, in nisi mi, eu rhoncus elit viverra lorem vestibulum. Vitae justo molestie arcu,
+                egestas eget. Eu vulputate hac sed praesent condimentum sit in facilisi natoque.
+                Iaculis scelerisque nunc, a tincidunt elementum quis ante ultrices sed.
+                Montes, blandit faucibus elit cum egestas mollis vitae quisque.
+                Suspendisse vivamus vitae auctor mi sollicitudin habitant.
+                Id nullam viverra enim nisi feugiat orci. Enim et cras nibh vel quis malesuada sed.
+                Hendrerit vestibulum risus praesent sit morbi cras. Eu, in nisi mi
+                , eu rhoncus elit viverra lorem vestibulum.
+                Vitae justo molestie arcu, egestas eget.</p>
+            <div class="AboutUs-Button">
+
+                <button type="button" onclick="window.location.href='{{ url('/about') }}'">KNOW MORE</button>
+
+            </div>
+            <div class="AboutUs-Button-Strip">
+
+            </div>
+        </div>
+
+
+    </div>
+
+
+    </div>
+
+
+
 </div>
 
+
 </body>
+
 </html>

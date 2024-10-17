@@ -84,7 +84,7 @@
 
 .main {
     position: absolute;
-    width: 1575px;
+    width: 1261px;
     height: 1018px;
     left: 3px;
     top: 635px;
@@ -96,7 +96,7 @@
     position: relative;
     width: 568px;
     height: 290px;
-    left: 100px;
+    left: 50px;
     top: 70px;
     background-color: #F6F6F6;
     transition: background-color 0.3s ease;
@@ -186,7 +186,7 @@
     position: absolute;
     width: 568px;
     height: 290px;
-    left: 700px;
+    left: 660px;
     top: 70px;
     background-color: #F6F6F6;
     transition: background-color 0.3s ease;
@@ -276,7 +276,7 @@
     position: absolute;
     width: 568px;
     height: 290px;
-    left: 100px;
+    left: 50px;
     top: 400px;
     background-color: #F6F6F6;
     transition: background-color 0.3s ease;
@@ -366,7 +366,7 @@
     position: absolute;
     width: 568px;
     height: 290px;
-    left: 700px;
+    left: 660px;
     top: 400px;
     background-color: #F6F6F6;
     transition: background-color 0.3s ease;
@@ -453,22 +453,22 @@
 }
 
 .foot {
+
     position: absolute;
-    width: 1577px;
+    width: 1263px;
     height: 382px;
     left: 0px;
-    top: 1400px;
-    background: #FFFFFF;
+    top: 1374px;
+    background:#FFFFFF;
 }
-
 .foot .inner-foot {
     position: absolute;
-    width: 1374px;
+    width: 1260px;
     height: 247px;
-    left: 183px;
+    left: 0;
     top: 25px;
-}
 
+}
 .foot .inner-foot .zen {
     position: absolute;
     width: 242.29px;
@@ -476,7 +476,6 @@
     left: 277px;
     top: 100px;
 }
-
 .foot .inner-foot .foot-nav {
     position: absolute;
     width: auto;
@@ -493,11 +492,9 @@
     display: flex;
     gap: 20px;
 }
-
 .foot .inner-foot .foot-nav a {
     color: #504ED8;
 }
-
 .foot .inner-foot .placeBox {
     position: absolute;
     width: 354px;
@@ -505,7 +502,6 @@
     left: 721px;
     top: 144px;
 }
-
 .foot .inner-foot .placeBox img {
     position: absolute;
     width: 24px;
@@ -513,7 +509,6 @@
     left: 0px;
     top: 0px;
 }
-
 .foot .inner-foot .placeText {
     position: absolute;
     height: 16px;
@@ -527,7 +522,6 @@
     line-height: 16px;
     color: #504ED8;
 }
-
 .foot .inner-foot .phoneBox {
     position: absolute;
     width: 123px;
@@ -535,7 +529,6 @@
     left: 721px;
     top: 184px;
 }
-
 .foot .inner-foot .phoneBox img {
     position: absolute;
     width: 24px;
@@ -543,7 +536,6 @@
     left: 0px;
     top: 0px;
 }
-
 .foot .inner-foot .phoneBox p {
     position: absolute;
     height: 16px;
@@ -557,7 +549,6 @@
     line-height: 16px;
     color: #504ED8;
 }
-
 .foot .inner-foot .emailBox {
     position: absolute;
     width: 138px;
@@ -565,7 +556,6 @@
     left: 965px;
     top: 184px;
 }
-
 .foot .inner-foot .emailBox img {
     position: absolute;
     width: 24px;
@@ -573,7 +563,6 @@
     left: 0px;
     top: 0px;
 }
-
 .foot .inner-foot .emailBox p {
     position: absolute;
     width: 110px;
@@ -587,7 +576,6 @@
     line-height: 16px;
     color: #504ED8;
 }
-
 .foot .inner-foot .SocialMediaBox {
     position: absolute;
     width: 460px;
@@ -595,7 +583,6 @@
     left: 721px;
     top: 248px;
 }
-
 .foot .inner-foot .SocialMediaBox p {
     font-family: 'Work Sans';
     font-style: normal;
@@ -605,7 +592,6 @@
     color: #BDBDF2;
     mix-blend-mode: normal;
 }
-
 .foot .inner-foot .SocialMediaBox .SocialMediaBoxBox {
     position: absolute;
     width: auto;
@@ -613,7 +599,6 @@
     left: 100px;
     top: 0;
 }
-
 .foot .inner-foot .SocialMediaBox .socialMediaBoxBox .facebook {
     position: absolute;
     width: 24px;
@@ -622,7 +607,6 @@
     top: 0;
     margin: 30px;
 }
-
 .foot .inner-foot .SocialMediaBox .socialMediaBoxBox .twitter {
     position: absolute;
     width: 24px;
@@ -630,7 +614,6 @@
     left: 869px;
     top: 248px;
 }
-
 .foot .inner-foot .SocialMediaBox .socialMediaBoxBox .linkedin {
     position: absolute;
     width: 24px;
@@ -638,7 +621,6 @@
     left: 917px;
     top: 248px;
 }
-
 .foot .inner-foot .SocialMediaBox .socialMediaBoxBox .youtube {
     position: absolute;
     width: 24px;
@@ -646,7 +628,6 @@
     left: 965px;
     top: 248px;
 }
-
 .foot .inner-foot .SocialMediaBox .socialMediaBoxBox .instagram {
     position: absolute;
     width: 24px;
@@ -654,39 +635,24 @@
     left: 1013px;
     top: 248px;
 }
-
 .foot .inner-foot .SocialMediaBox .socialMediaBoxBox .googleplus {
-    /* googleplus black.1 */
-
     position: absolute;
     width: 24px;
     height: 24px;
     left: 1061px;
     top: 248px;
-
-
 }
-
 .foot .inner-foot .SocialMediaBox .socialMediaBoxBox .pinterest {
-    /* pinterest color.1 */
-
     position: absolute;
     width: 24px;
     height: 24px;
     left: 1109px;
     top: 248px;
-
-
 }
-
 .foot .inner-foot .SocialMediaBox .socialMediaBoxBox .rss {
-    /* rss black.1 */
-
     position: absolute;
     width: 24px;
     height: 24px;
     left: 1157px;
     top: 248px;
-
-
 }

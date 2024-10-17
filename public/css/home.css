@@ -1,5 +1,5 @@
 .head {
-    width: 100%;
+    width: 100% ;
     height: 120px;
     background: #FFFFFF;
     position: relative;
@@ -20,75 +20,286 @@
 }
 .main {
     width: 100%;
+    height: 100%;
+    background: #FFFFFF;
+    position: relative;
+}
+.main .Home-CarouselBox {
+    /* Vector */
+    position: absolute;
+    width: 100%;
     height: 780px;
     background: linear-gradient(180deg, #F4F4F4 0%, #FFFFFF 68.85%);
 }
-.FirstText {
+.main .Home-CarouselBox .Changing-TextBox{
+
+    /* A Full-stack Development Company */
+
+    position: absolute;
+    width: 443px;
+    height: 210px;
+    left: 121px;
+    top: 211px;
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 70px;
+
+    color: #504ED8;
+
+}
+.main .Home-CarouselBox .TextBox1{
+    /* One-stop shop for firmware, devices, apps, cloud solutions */
+
     position: absolute;
     width: 382px;
     height: 44px;
     left: 121px;
-    top: 549px;
-    font-family: 'Work Sans', sans-serif;
+    top: 449px;
+
+    font-family: 'Work Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 23px;
-    color: #8785A5;
-}
 
-.SecondText {
+    color: #8785A5;
+
+}
+.main .Home-CarouselBox .TextBox2{
+    /* Group 47 */
+
     position: absolute;
-    width: 241px;
+    width: 241.84px;
     height: 54px;
     left: 121px;
-    top: 680px;
+    top: 536px;
+    background-image: url('../img/Home-arrow.png') ;
+
 }
-.scrolDown {
+.main .Home-CarouselBox .TextBox2 p{
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 18.77px;
+    text-align: left;
+    color:#FFFFFF;
+   margin-top: 10px;
+    margin-left: 10px;
+}
+.main .Home-CarouselBox .scroll-downBox{
+    /* Group 81 */
     position: absolute;
-    width: 116px;
+    width: 140px;
     height: 93px;
-    left: 121px;
-    top: 850px;
-    background: linear-gradient(180deg, #00CAD7 -8.06%, #504ED8 100%);
-    box-shadow: 0px 4px 10px rgba(57, 56, 150, 0.53);
-    border-radius: 90px 90px 0px 0px;
+    left: 131px;
+    top: 707px;
+    background-image: url('../img/home-scroll-down.png') ;
 }
-.scrolDown img {
+.main .Home-CarouselBox .CarouselBox {
+    /* Group 74 */
     position: absolute;
-    left: 43px;
-    top: 15px;
+    width: 800px;
+    height: 800px;
+    left: 600px;
+    transform: rotate(165deg);
+    background-image: url("../img/CarouselBox-Rings-.png");
 }
-.scrolDown p {
+.main .Home-CarouselBox .CarouselBox .custom-carousel img {
+
+transform: rotate(-165deg);
+}
+
+.main .Home-CarouselBox  .indicators-buttons-Box {
+    /* Group 3625 */
+
     position: absolute;
-    width: 100px;
-    height: 12px;
-    left: 15px;
+    width: 369px;
+    height: 38px;
+    left: 550px;
+    top: 725px;
+
+
+}
+.main .Home-CarouselBox .indicators-buttons-Box .custom-carousel-indicators {
+    /* Group 82 */
+
+    position: absolute;
+    width: 300px;
+    height: 28px;
+    margin: 5px;
+   left: 30px;
+}
+.main .Home-CarouselBox .indicators-buttons-Box .custom-carousel-indicators .button1{
+    /* Rectangle 54 */
+
+    position: absolute;
+    width: 60px;
+    left: 20px;
+    height: 9px;
+    top: 7px;
+    background: #504ED8;
+    border-radius: 69px;
+
+}
+.main .Home-CarouselBox .indicators-buttons-Box .custom-carousel-indicators .button2{
+    /* Rectangle 54 */
+
+    position: absolute;
+    width: 60px;
+    left: 100px;
+    height: 9px;
+    top: 7px;
+    background: #504ED8;
+    border-radius: 69px;
+
+}
+.main .Home-CarouselBox .indicators-buttons-Box .custom-carousel-indicators .button3{
+    /* Rectangle 54 */
+
+    position: absolute;
+    width: 60px;
+    left: 180px;
+    height: 9px;
+    top: 7px;
+    background: #504ED8;
+    border-radius: 69px;
+
+}
+.main .Home-CarouselBox .indicators-buttons-Box .prev-next-buttons{
+    /* fluent:arrow-next-20-filled */
+
+    position: absolute;
+    width: 50px;
+    height: 38px;
+    left: 364px;
+
+    transform: rotate(180deg);
+}
+.main .Home-CarouselBox .indicators-buttons-Box .prev-next-buttons .custom-carousel-control-next{
+    /* fluent:arrow-next-20-filled */
+
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    background-image: url("../img/Carousel-fluent_arrow-next.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+    transform: rotate(180deg);
+    top: 5px ;
+
+}
+.main .Home-CarouselBox .indicators-buttons-Box .prev-next-buttons .custom-carousel-control-prev{
+    position: absolute;
+    width: 38px;
+    height: 38px;
+   right: 100px;
+    background-image: url("../img/Carousel-fluent_arrow-next.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+    transform: rotate(360deg);
+    top: 5px ;
+
+}
+.main .Home-AboutUs{
+    /* Vector */
+
+    position: absolute;
+    width: 100%;
+    height: 508px;
+    top: 800px;
+    background:#FFFFFF;
+}
+.main .Home-AboutUs .AboutUs {
+    position: absolute;
+    width: 100%;
+    height: 508px;
+
+    background-image: url('../img/about-us-header.png') ;
+}
+.main .Home-AboutUs .AboutUs h1 {
+    position: absolute;
+    width: 484px;
+    height: 111px;
+    left: 110px;
     top: 60px;
     font-family: 'Work Sans';
     font-style: normal;
-    font-weight: 600;
-    font-size: 10px;
-    line-height: 12px;
-    text-align: center;
-    letter-spacing: 0.1em;
+    font-weight: 700;
+    font-size: 95px;
+    line-height: 111px;
     color: #FFFFFF;
 }
-
-.main .CarouselBox {
+.main .Home-AboutUs .AboutUs h2 {
     position: absolute;
-    width: 787.8px;
-    height: 667.49px;
-    left: 600px;
-    top: 132.34px;
-    transform: rotate(165deg);
+    width: auto;
+    height: 35px;
+    left: 110px;
+    top: 179px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 35px;
+    color: #09C4D0;
+    white-space: nowrap;
 }
-.rotate {
-    rotate: 195deg;
+.main .Home-AboutUs .AboutUs p {
+    position: absolute;
+    width: 1120px;
+    height: 169px;
+    left: 110px;
+    top: 266px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
 }
+.main .Home-AboutUs .AboutUs .AboutUs-Button{
+    /* Rectangle 58 */
 
-/* Change carousel button colors to black */
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-    background-color: black;
+    position: absolute;
+    width: 164px;
+    height: 45px;
+    left: 110px;
+    top: 450px;
+
+    background: #504ED8;
+
+}
+.main .Home-AboutUs .AboutUs .AboutUs-Button button{
+    /* KNOW MORE */
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+    text-align: center;
+    background: #504ED8;
+    color: #FFFFFF;
+    border: none;
+}
+.main .Home-AboutUs .AboutUs  .AboutUs-Button-Strip{
+    /* Rectangle 59 */
+
+    position: absolute;
+    width: 164px;
+    height: 5px;
+    left: 110px;
+    top: 490px;
+
+    background: #09C4D0;
+
+
 }

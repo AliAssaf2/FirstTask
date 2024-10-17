@@ -20,7 +20,7 @@
 }
 .AboutUs {
     position: absolute;
-    width: 1440px;
+    width: 1260px;
     height: 508px;
     top: 127px;
     background-image: url('../img/about-us-header.png') ;
@@ -30,7 +30,7 @@
     width: 484px;
     height: 111px;
     left: 110px;
-    top: 187px;
+    top: 60px;
     font-family: 'Work Sans';
     font-style: normal;
     font-weight: 700;
@@ -43,7 +43,7 @@
     width: auto;
     height: 35px;
     left: 110px;
-    top: 279px;
+    top: 179px;
     font-family: 'Work Sans';
     font-style: normal;
     font-weight: 600;
@@ -54,10 +54,10 @@
 }
 .AboutUs p {
     position: absolute;
-    width: 1220px;
+    width: 1120px;
     height: 169px;
     left: 110px;
-    top: 366px;
+    top: 266px;
     font-family: 'Work Sans';
     font-style: normal;
     font-weight: 400;
@@ -80,7 +80,7 @@
 }
 .WhatWeDo p {
     position: absolute;
-    width: 1220px;
+    width: 1070px;
     height: 169px;
     left: 110px;
     top: 771px;
@@ -93,7 +93,7 @@
 }
 .picture1 img {
     position: absolute;
-    width: 835.74px;
+    width: 735.74px;
     height: 823.24px;
     left: -43px;
     top: 941px;
@@ -102,7 +102,7 @@
     position: absolute;
     width: auto;
     height: 47px;
-    left: 755px;
+    left: 655px;
     top: 1138px;
     font-family: 'Work Sans';
     font-style: normal;
@@ -113,9 +113,9 @@
 }
 .OurVision p {
     position: absolute;
-    width: 575px;
+    width: 505px;
     height: 169px;
-    left: 755px;
+    left: 655px;
     top: 1205px;
     font-family: 'Work Sans';
     font-style: normal;
@@ -126,9 +126,9 @@
 }
 .picture2 img {
     position: absolute;
-    width: 835.74px;
+    width: 765.74px;
     height: 823.24px;
-    left: 624px;
+    left: 524px;
     top: 1638px;
 }
 .OURMISSION h1 {
@@ -146,7 +146,7 @@
 }
 .OURMISSION p {
     position: absolute;
-    width: 575px;
+    width: 500px;
     height: 169px;
     left: 112px;
     top: 1935px;
@@ -159,7 +159,7 @@
 }
 .blueBox {
     position: absolute;
-    width: 1440px;
+    width: 1260px;
     height: 70px;
     top: 2455px;
     background: #504ED8;
@@ -168,7 +168,7 @@
     position: absolute;
     width: 202px;
     height: 70px;
-    left: 1150px;
+    left: 890px;
     top: 0px;
     background: #00CAD7;
 }
@@ -201,7 +201,7 @@
 }
 .projects {
     position: absolute;
-    width: 1440px;
+    width: 1260px;
     height: 449px;
     left: 0px;
     top: 2525px;
@@ -209,7 +209,7 @@
 }
 .projects .inner-div {
     position: absolute;
-    width: 1216px;
+    width: 1116px;
     height: 336px;
     left: 112px;
     top: 56px;
@@ -218,7 +218,7 @@
     position: relative;
     width: 376px;
     height: 35px;
-    left: 0;
+    left: 32px;
     top: 0;
     font-family: 'Work Sans';
     font-style: normal;
@@ -229,17 +229,16 @@
 }
 .projects .inner-div .picture-div {
     position: relative;
-    width: 1216px;
+    width: 1180px;
     height: 255px;
-    left: 0px;
     top: 20px;
 }
 .overlay {
     position: absolute;
     top: 0;
-    left: 0;
-    width: 410px;
-    height: 250px;
+    left: 32px;
+    width: 372px;
+    height: 234px;
     background-color: rgba(0, 123, 255, 0.5);
     color: white;
     display: flex;
@@ -257,19 +256,21 @@
     margin: 0;
 }
 .foot {
+
     position: absolute;
-    width: 1440px;
+    width: 1260px;
     height: 382px;
     left: 0px;
     top: 2974px;
-    background: #FFFFFF;
+    background:#FFFFFF;
 }
 .foot .inner-foot {
     position: absolute;
-    width: 1374px;
+    width: 1260px;
     height: 247px;
-    left: 183px;
+    left: 0;
     top: 25px;
+
 }
 .foot .inner-foot .zen {
     position: absolute;
