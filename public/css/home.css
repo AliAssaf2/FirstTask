@@ -298,8 +298,278 @@ transform: rotate(-165deg);
     height: 5px;
     left: 110px;
     top: 490px;
-
     background: #09C4D0;
+}
+
+.main .Home-OurServices{
+    /* Vector */
+
+    position: absolute;
+    width: 100%;
+    height: 508px;
+    top: 1308px;
+    background:#FFFFFF;
+}
+main .Home-OurServices .OURSERVICESBOX {
+    position: absolute;
+    width: 100%;
+    height: 508px;
+    left: 0;
+    top: 127px;
+    background-size: cover;
+    background-position: center;
+}
+
+.OurServiceTextBox {
+    position: absolute;
+    width: auto;
+    height: 129px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.OurServiceTextBox h1 {
+    position: relative;
+    width: 100%;
+    height: auto;
+    align-content: center;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 95px;
+    line-height: 111px;
+    color: #504ED8;
+    white-space: nowrap;
+}
+
+.OurServiceTextBox p {
+    position: absolute;
+    width: auto;
+    height: 35px;
+    left: 200px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 35px;
+    color: #09C4D0;
+}
+
+.main .Home-OurServices .OurServicesIconBox{
+    /* Rectangle 60 */
+
+    position: absolute;
+    width: 100%;
+    height: 410px;
+    left: 0px;
+    top: 398px;
+
+    background: #F6F6F6;
+
+}
+/* Carousel Container */
+.carousel-container {
+    width: 99%;
+    height:90%;
+    top: 50px;
+   /* background: #F6F6F6;*/
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+}
+
+/* Carousel Wrapper */
+.carousel-wrapper {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+/* Individual Card */
+.card {
+    flex-shrink: 0;
+    width: 32%; /* Show 4 cards at a time (25% of container) */
+    height: 100%;
+    border: none;
+    left: 100px;
+    background: #F6F6F6;
+}
+
+.card img {
+    width: 70%;
+    height: 70%;
+    object-fit: cover;
+}
+
+.card-body {
+    text-align: center;
+}
+
+/* Custom Arrows */
+.carousel-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.carousel-control.left {
+    left: 0;
+    top: 160px;
+}
+
+.carousel-control.right {
+    right: 0;
+    top: 160px;
+}
+.image-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+}
+
+.centered-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40%; /* Adjust the size as needed */
+    height: auto;
+}
+
+.main .HomePortfolioBox {
+    /* Vector */
+    position: absolute;
+    width: 100%;
+    height: 508px;
+    top: 2125px;
+    background: #FFFFFF;
+}
+
+.main .HomePortfolioBox h1 {
+    /* PORTFOLIO */
+    position: absolute;
+    width: 546px;
+    height: 111px;
+    left: 50%;
+    top: 200px;
+    transform: translateX(-50%);
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 95px;
+    line-height: 111px;
+    color: #504ED8;
+}
+
+.main .HomePortfolioBox p {
+    /* SOME OF OUR PROJECTS */
+    position: absolute;
+    width: 376px;
+    height: 35px;
+    left: 50%;
+    top: 285px;
+    transform: translateX(-50%);
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 35px;
+    color: #09C4D0;
+}
+
+.main .HomePortfolioBox .picture-div {
+    position: relative;
+    width: 1180px;
+    height: 255px;
+    left: 50px;
+    top: 450px; /* Adjusted to make them closer */
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 32px;
+    width: 372px;
+    height: 234px;
+    background-color: rgba(0, 123, 255, 0.5);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.overlay h2 {
+    font-size: 2rem;
+    margin: 0;
+}
 
 
+.funnyP {
+    /* Company name */
+    position: absolute !important;
+    width: 152px !important;
+    height: 23px !important;
+    left: 50% !important; /* Center horizontally */
+    top: 70% !important; /* Center vertically */
+    transform: translate(-50%, -50%) !important; /* Adjust for centering */
+    font-family: 'Work Sans' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 20px !important;
+    line-height: 23px !important;
+    text-align: center !important;
+    color: #FFFFFF !important;
+}
+
+.main .HomeEmailBox {
+    /* Vector */
+    /* Rectangle 361 */
+    position: absolute;
+    width: 100%;
+    height: 1146px;
+    left: 0px;
+    top: 3150px;
+    background: linear-gradient(109.17deg, #504ED8 40.33%, #00CAD7 121.05%);
+
+}
+.main .HomeEmailBox .backImg{
+    /* contact-us-background */
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.main .HomeEmailBox .frameImg{
+    /* Frame */
+    position: absolute;
+    width: 413px;
+    height: 464px;
+    left: 120px;
+    top: 474px;
+}
+.main .HomeEmailBox .EmailForm{
+    /* Group 3603 */
+    position: absolute;
+    width: 548px;
+    height: 832px;
+    left: 592px;
+    top: 260px;
+}
+.main .HomeEmailBox .EmailForm img{
+    width: 530px;
+    height: 750px;
 }

@@ -136,12 +136,197 @@
 
     </div>
 
+    <div class="Home-OurServices">
+    <div class="OURSERVICESBOX">
+        <div class="OurServiceTextBox">
+            <h1>OUR SERVICES</h1>
+            <p>WHAT WE PROVIDE</p>
+        </div>
+    </div>
+
+    <div class="OurServicesIconBox">
+       <div class="carousel-container">
+    <div class="carousel-wrapper" id="carouselWrapper">
+        <!-- Existing Carousel cards -->
+        <div class="card">
+    <div class="image-container">
+        <img src="img/Rectangle White.png" alt="Image 1" />
+        <img src="img/Group 3701.png" alt="New Image" class="centered-image" />
+    </div>
+    <div class="card-body">
+        <h5>Card 1</h5>
+        <p>Card description 1</p>
+    </div>
+</div>
+<div class="card">
+    <div class="image-container">
+        <img src="img/Rectangle White.png" alt="Image 2" />
+        <img src="img/Group 3701.png" alt="New Image" class="centered-image" />
+    </div>
+    <div class="card-body">
+        <h5>Card 2</h5>
+        <p>Card description 2</p>
+    </div>
+</div>
+<div class="card">
+    <div class="image-container">
+        <img src="img/Rectangle White.png" alt="Image 3" />
+        <img src="img/Group 3701.png" alt="New Image" class="centered-image" />
+    </div>
+    <div class="card-body">
+        <h5>Card 3</h5>
+        <p>Card description 3</p>
+    </div>
+</div>
+<div class="card">
+    <div class="image-container">
+        <img src="img/Rectangle White.png" alt="Image 4" />
+        <img src="img/Group 3701.png" alt="New Image" class="centered-image" />
+    </div>
+    <div class="card-body">
+        <h5>Card 4</h5>
+        <p>Card description 4</p>
+    </div>
+</div>
+<div class="card">
+    <div class="image-container">
+        <img src="img/Rectangle White.png" alt="Image 5" />
+        <img src="img/Group 3701.png" alt="New Image" class="centered-image" />
+    </div>
+    <div class="card-body">
+        <h5>Card 5</h5>
+        <p>Card description 5</p>
+    </div>
+</div>
+<div class="card">
+    <div class="image-container">
+        <img src="img/Rectangle White.png" alt="Image 6" />
+        <img src="img/Group 3701.png" alt="New Image" class="centered-image" />
+    </div>
+    <div class="card-body">
+        <h5>Card 6</h5>
+        <p>Card description 6</p>
+    </div>
+</div>
+<div class="card">
+    <div class="image-container">
+        <img src="img/Rectangle White.png" alt="Image 7" />
+        <img src="img/Group 3701.png" alt="New Image" class="centered-image" />
+    </div>
+    <div class="card-body">
+        <h5>Card 7</h5>
+        <p>Card description 7</p>
+    </div>
+</div>
+<div class="card">
+    <div class="image-container">
+        <img src="img/Rectangle White.png" alt="Image 8" />
+        <img src="img/Group 3701.png" alt="New Image" class="centered-image" />
+    </div>
+    <div class="card-body">
+        <h5>Card 8</h5>
+        <p>Card description 8</p>
+    </div>
+</div>
+<div class="card">
+    <div class="image-container">
+        <img src="img/Rectangle White.png" alt="Image 9" />
+        <img src="img/Group 3701.png" alt="New Image" class="centered-image" />
+    </div>
+    <div class="card-body">
+        <h5>Card 9</h5>
+        <p>Card description 9</p>
+    </div>
+</div>
+<div class="card">
+    <div class="image-container">
+        <img src="img/Rectangle White.png" alt="Image 10" />
+        <img src="img/Group 3701.png" alt="New Image" class="centered-image" />
+    </div>
+    <div class="card-body">
+        <h5>Card 10</h5>
+        <p>Card description 10</p>
+    </div>
+</div>
+<div class="card">
+    <div class="image-container">
+        <img src="img/Rectangle White.png" alt="Image 11" />
+        <img src="img/Group 3701.png" alt="New Image" class="centered-image" />
+    </div>
+    <div class="card-body">
+        <h5>Card 11</h5>
+        <p>Card description 11</p>
+    </div>
+</div>
+    </div>
+
+    <!-- Left arrow -->
+    <button class="carousel-control left" onclick="moveLeft()">
+        &#10094;
+    </button>
+    <!-- Right arrow -->
+    <button class="carousel-control right" onclick="moveRight()">
+        &#10095;
+    </button>
+</div>
+    </div>
+</div>
+
+    <div class="HomePortfolioBox">
+
+            <h1>PORTFOLIO</h1>
+            <p>SOME OF OUR PROJECTS</p>
+        <div class="picture-div">
+            <div class="container">
+                <div class="row g-0">
+                    <div class="col" >
+                        <img src="img/Ylk5n_nd9dA(4).png" class="img-fluid" alt="Image 1">
+                        <div class="overlay">
+                            <h2>PROJECT TITLE</h2>
+                            <p class="funnyP">Company name</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <img src="img/Ylk5n_nd9dA(1).png" class="img-fluid" alt="Image 2">
+                    </div>
+                    <div class="col">
+                        <img src="img/Ylk5n_nd9dA(3).png" class="img-fluid" alt="Image 3">
+                    </div>
+    </div>
+                </div>
+<div class="container">
+    <div class="row g-0">
+        <div class="col">
+            <img src="img/lap1.jpg" class="img-fluid" alt="Image 4">
+        </div>
+        <div class="col">
+            <img src="img/lap2.jpg" class="img-fluid" alt="Image 5">
+        </div>
+        <div class="col">
+            <img src="img/lap3.png" class="img-fluid" alt="Image 6">
+        </div>
+    </div>
+</div>
+
+    </div>
+        </div>
+
+    <div class="HomeEmailBox">
+        <img src="img/contact-us-background.png" alt="back img" class="backImg">
+        <div class="frameImg">
+            <img src="img/Frame.png" alt="frame img">
+        </div>
+        <div class="EmailForm">
+            <img src="img/EmailForm.png" alt="email form">
+        </div>
+    </div>
 
     </div>
 
 
 
-</div>
+
+
 
 
 </body>

@@ -31,6 +31,7 @@
         </ul>
     </div>
 </header>
+<div class="main">
 <div class="AboutUs">
 <h1>ABOUT US</h1>
     <h2>WHO WE ARE</h2>
@@ -150,6 +151,7 @@
         </div>
     </div>
 
+</div>
 </div>
 <footer class="foot">
     <div class="inner-foot">
