@@ -150,47 +150,46 @@
         <!-- Existing Carousel cards -->
         <div class="card">
     <div class="image-container">
-        <img src="img/Rectangle White.png" alt="Image 1" />
         <img src="img/Group 3701.png" alt="New Image" class="centered-image" />
     </div>
     <div class="card-body">
-        <h5>Card 1</h5>
-        <p>Card description 1</p>
+        <h5>Business
+            Solutions</h5>
+
     </div>
 </div>
 <div class="card">
     <div class="image-container">
-        <img src="img/Rectangle White.png" alt="Image 2" />
-        <img src="img/Group 3701.png" alt="New Image" class="centered-image" />
+        <img src="img/Group 3703.png" alt="New Image" class="centered-image" />
     </div>
     <div class="card-body">
-        <h5>Card 2</h5>
-        <p>Card description 2</p>
+        <h5>Software
+            Consultancy</h5>
+
     </div>
 </div>
 <div class="card">
     <div class="image-container">
-        <img src="img/Rectangle White.png" alt="Image 3" />
-        <img src="img/Group 3701.png" alt="New Image" class="centered-image" />
+        <img src="img/Group 3702.png" alt="New Image" class="centered-image" />
     </div>
     <div class="card-body">
-        <h5>Card 3</h5>
-        <p>Card description 3</p>
+        <h5>Enterprise
+            Platforms</h5>
+
     </div>
 </div>
 <div class="card">
     <div class="image-container">
-        <img src="img/Rectangle White.png" alt="Image 4" />
-        <img src="img/Group 3701.png" alt="New Image" class="centered-image" />
+        <img src="img/Group 3704.png" alt="New Image" class="centered-image" />
     </div>
     <div class="card-body">
-        <h5>Card 4</h5>
-        <p>Card description 4</p>
+        <h5>Full-Stack
+            Development</h5>
+
     </div>
 </div>
 <div class="card">
     <div class="image-container">
-        <img src="img/Rectangle White.png" alt="Image 5" />
         <img src="img/Group 3701.png" alt="New Image" class="centered-image" />
     </div>
     <div class="card-body">
@@ -200,7 +199,6 @@
 </div>
 <div class="card">
     <div class="image-container">
-        <img src="img/Rectangle White.png" alt="Image 6" />
         <img src="img/Group 3701.png" alt="New Image" class="centered-image" />
     </div>
     <div class="card-body">
@@ -210,7 +208,6 @@
 </div>
 <div class="card">
     <div class="image-container">
-        <img src="img/Rectangle White.png" alt="Image 7" />
         <img src="img/Group 3701.png" alt="New Image" class="centered-image" />
     </div>
     <div class="card-body">
@@ -220,7 +217,6 @@
 </div>
 <div class="card">
     <div class="image-container">
-        <img src="img/Rectangle White.png" alt="Image 8" />
         <img src="img/Group 3701.png" alt="New Image" class="centered-image" />
     </div>
     <div class="card-body">
@@ -230,7 +226,6 @@
 </div>
 <div class="card">
     <div class="image-container">
-        <img src="img/Rectangle White.png" alt="Image 9" />
         <img src="img/Group 3701.png" alt="New Image" class="centered-image" />
     </div>
     <div class="card-body">
@@ -240,7 +235,6 @@
 </div>
 <div class="card">
     <div class="image-container">
-        <img src="img/Rectangle White.png" alt="Image 10" />
         <img src="img/Group 3701.png" alt="New Image" class="centered-image" />
     </div>
     <div class="card-body">
@@ -250,7 +244,6 @@
 </div>
 <div class="card">
     <div class="image-container">
-        <img src="img/Rectangle White.png" alt="Image 11" />
         <img src="img/Group 3701.png" alt="New Image" class="centered-image" />
     </div>
     <div class="card-body">
@@ -313,6 +306,10 @@
 
     <div class="HomeEmailBox">
         <img src="img/contact-us-background.png" alt="back img" class="backImg">
+        <div class="EmailBoxText">
+            <h1>CONTACT US</h1>
+            <p>LET’S HEAR FROM YOU</p>
+        </div>
         <div class="frameImg">
             <img src="img/Frame.png" alt="frame img">
         </div>
@@ -322,6 +319,60 @@
     </div>
 
     </div>
+
+<footer class="foot">
+    <div class="inner-foot">
+        <img src="img/zin new 1.png" class="zen">
+        <div class="foot-nav">
+            <div class="navbar-container">
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">SERVICES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">PORTFOLIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">CONTACT US</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="placeBox">
+            <img src="img/round-place-24px.png" >
+            <p class="placeText">345 Faulconer Drive, Suite 4 • Charlottesville, CA, 12345</p>
+        </div>
+        <div class="phoneBox">
+            <img src="img/round-phone-24px.png">
+            <p>(123) 456-7890</p>
+        </div>
+        <div class="emailBox">
+            <img src="img/round-local-printshop-24px.png">
+            <p>email@info.com</p>
+        </div>
+        <div class="SocialMediaBox">
+            <p>Social Media</p>
+            <div class="SocialMediaBoxBox">
+                <img src="img/facebook black.1.png" class="facebook">
+                <img src="img/twitter black.1.png" class="twitter">
+                <img src="img/linkedin black.1.png" class="linkedin">
+                <img src="img/youtube color.1.png" class="youtube">
+                <img src="img/instagram black.1.png" class="instagram">
+                <img src="img/googleplus black.1.png" class="googleplus">
+                <img src="img/pinterest color.1.png" class="pinterest">
+                <img src="img/rss black.1.png" class="rss">
+            </div>
+        </div>
+
+    </div>
+</footer>
 
 
 
