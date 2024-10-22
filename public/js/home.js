@@ -52,3 +52,4 @@ document.addEventListener('DOMContentLoaded', (event) => {
     document.querySelector('.carousel-control.left').addEventListener('click', moveLeft);
     document.querySelector('.carousel-control.right').addEventListener('click', moveRight);
 });
+

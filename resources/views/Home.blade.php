@@ -58,23 +58,23 @@
         </div>
 
 
-{{--<div class="CarouselBox">
-    <div id="carouselExampleIndicators" class="custom-carousel" data-bs-ride="carousel">
+<div class="CarouselBox">
+    <img src="img/CarouselBox-Rings-.png" alt="rings"/>
 
-        <div class="custom-carousel-inner">
-            <div class="custom-carousel-item custom-active">
-                <img src="img/Carousel-Slider-one.png" class="custom-img" alt="...">
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/Carousel-Slider-one.png" class="d-block w-100" alt="ONE">
             </div>
-            <div class="custom-carousel-item">
-                <img src="img/Carousel-Slider-two.png" class="custom-img" alt="...">
+            <div class="carousel-item">
+                <img src="img/Carousel-Slider-two.png" class="d-block w-100" alt="...">
             </div>
-            <div class="custom-carousel-item">
-                <img src="img/Carousel-Slider-three.png" class="custom-img" alt="...">
+            <div class="carousel-item">
+                <img src="img/Carousel-Slider-three.png" class="d-block w-100" alt="...">
             </div>
         </div>
-
     </div>
-</div>--}}
+</div>
 
 
         <div class="indicators-buttons-Box">
@@ -252,15 +252,14 @@
     </div>
 </div>
     </div>
-
-    <!-- Left arrow -->
-    <button class="carousel-control left" onclick="moveLeft()">
-        &#10094;
-    </button>
-    <!-- Right arrow -->
-    <button class="carousel-control right" onclick="moveRight()">
-        &#10095;
-    </button>
+<!-- Left arrow -->
+<button class="carousel-control left" onclick="moveLeft()">
+    <img src="../img/Left-arrow.png" alt="Left Arrow" class="arrow-button">
+</button>
+<!-- Right arrow -->
+<button class="carousel-control right" onclick="moveRight()">
+    <img src="../img/Right-arrow.png" alt="Right Arrow" class="arrow-button">
+</button>
 </div>
     </div>
 </div>

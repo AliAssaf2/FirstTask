@@ -101,16 +101,19 @@
 .main .Home-CarouselBox .CarouselBox {
     /* Group 74 */
     position: absolute;
-    width: 800px;
+    width: 660px;
     height: 800px;
     left: 600px;
-    transform: rotate(165deg);
-    background-image: url("../img/CarouselBox-Rings-.png");
+    /*transform: rotate(165deg);*/
+   /* background-image: url("../img/CarouselBox-Rings-.png");*/
 }
-.main .Home-CarouselBox .CarouselBox .custom-carousel img {
+.main .Home-CarouselBox .CarouselBox img{
+    width: 700px;
+    height: 800px;
+    transform: translateY(-15%);
 
-transform: rotate(-165deg);
 }
+
 
 .main .Home-CarouselBox  .indicators-buttons-Box {
     /* Group 3625 */
@@ -389,10 +392,11 @@ main .Home-OurServices .OURSERVICESBOX {
 /* Individual Card */
 .card {
     flex-shrink: 0;
-    width: 300px; /* Show 4 cards at a time (25% of container) */
+    width: 270px; /* Show 4 cards at a time (25% of container) */
     height: 300px;
     border: none;
-    left: 100px;
+    left: 70px;
+    bottom: 50px;
     background: #F6F6F6;
 }
 
@@ -429,7 +433,7 @@ main .Home-OurServices .OURSERVICESBOX {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: transparent;
     color: white;
     border: none;
     width: 50px;
@@ -440,13 +444,14 @@ main .Home-OurServices .OURSERVICESBOX {
 
 .carousel-control.left {
     left: 0;
-    top: 160px;
+    top: 130px;
 }
 
 .carousel-control.right {
     right: 0;
-    top: 160px;
+    top: 130px;
 }
+
 .image-container {
     position: relative;
     width: 300px;
